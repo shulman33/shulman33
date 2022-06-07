@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  <img src="https://media.giphy.com/media/OpZAtvthe5zKewgbyg/giphy.gif" width="200"/>
 </div>
 <div id = "badges" align="center">
   
@@ -41,6 +41,7 @@ public class AboutMe{
   private String myName;
   private Code[] myLanguages;
   private Technologies frontEnd; 
+  private Technologies[] tools;
   private Technologies[] backEnd;
   private Technologies testing;
   private String currentOccupation;
@@ -52,6 +53,7 @@ public class AboutMe{
     this.frontEnd = new Technologies(React)
     this.backEnd = [Node, Express, Puppeteer]
     this.testing = new Technologies(Junit)
+    this.tools = [Maven, Jira]
     this.currentOccupation = "Second year Computer Science student at Yeshiva University with a concentration in Distributed Systems"
     
   }
