@@ -53,7 +53,7 @@ public class AboutMe{
     this.frontEnd = new Technologies(React)
     this.backEnd = [Node, Express, Puppeteer]
     this.testing = new Technologies(Junit)
-    this.tools = [Maven, Jira]
+    this.tools = [Maven, Jira, AWS]
     this.currentOccupation = "Second year Computer Science student at Yeshiva University with a concentration in Distributed Systems"
     
   }
