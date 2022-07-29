@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/OpZAtvthe5zKewgbyg/giphy.gif" width="200"/>
+  <img src="https://media4.giphy.com/media/zr8fjYMibDWBlTpbMU/200w.webp?cid=ecf05e47wvr9dstmcure7i85p9a1xndgtbx4yxcw8rr7ielk&rid=200w.webp&ct=s" width="200"/>
 </div>
 <div id = "badges" align="center">
   
@@ -40,7 +40,7 @@ public class AboutMe{
   
   private String myName;
   private Code[] myLanguages;
-  private Technologies frontEnd; 
+  private Technologies[] frontEnd; 
   private Technologies[] tools;
   private Technologies[] backEnd;
   private Technologies testing;
@@ -50,10 +50,10 @@ public class AboutMe{
   
     this.myName = "Sam Shulman"
     this.myLanguages = [Java, Python, JavaScript, HTML]
-    this.frontEnd = new Technologies(React)
-    this.backEnd = [Node, Express, Puppeteer]
+    this.frontEnd = [React, JavaScript, HTML, CSS]
+    this.backEnd = [Node, AWS S3, AWS DynamoDB, AWS Lambda, AWS Cognito, AWS Amplify]
     this.testing = new Technologies(Junit)
-    this.tools = [Maven, Jira, AWS]
+    this.tools = [Maven, Jira, Git, Github]
     this.currentOccupation = "Second year Computer Science student at Yeshiva University with a concentration in Distributed Systems"
     
   }
