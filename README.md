@@ -35,35 +35,40 @@ Here are some ideas to get you started:
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
 </div>
 
-```java
-public class AboutMe{
-  
-  private String myName;
-  private Code[] myLanguages;
-  private Technologies[] frontEnd; 
-  private Technologies[] tools;
-  private Technologies[] backEnd;
-  private Technologies testing;
-  private String currentOccupation;
-  
-  public AboutMe(){
-  
-    this.myName = "Sam Shulman"
-    this.myLanguages = [Java, Python, JavaScript, HTML]
-    this.frontEnd = [React, JavaScript, HTML, CSS]
-    this.backEnd = [Node, AWS S3, AWS DynamoDB, AWS Lambda, AWS Cognito, AWS Amplify]
-    this.testing = new Technologies(Junit)
-    this.tools = [Maven, Jira, Git, Github]
-    this.currentOccupation = "Second year Computer Science student at Yeshiva University with a concentration in Distributed Systems"
-    
+```json
+{
+  "name": "Sam Shulman",
+  "About Me": "I'm a second-year Computer Science student at Yeshiva University, concentrating in Distributed Systems. I'm passionate about building software solutions to help people in their everyday lives.",
+  "Projects": [
+    {
+      "name": "KitaHub",
+      "description": "Kitahub is an innovative educational platform designed to enhance learning and streamline the recruitment process. Developed by computer science students Kitahub offers standardized code testing, dynamic collaboration through an interactive Q&A board, and authentic recruitment insights. Empowering students, educators, and recruiters, Kitahub bridges the gap between academia and industry, ensuring that academic achievements and real-world skills are accurately showcased and valued."
+    },
+    {
+      "name": "ImIn",
+      "description": "I built a streamlined registration system for students at Yeshiva University. Registration time at YU is always highly stressful for students, so I created a solution that makes the process much less stressful. Students were able to enter all their registration information months in advance of registration. As soon as the student's registration slot opened, my solution would register them for their desired classes in around eight milliseconds. Approximately half the student body visited my app within a month of launch. This experience taught me how to design, build, and debug a distributed system and AWS services such as EC2, Lambda, Dynamo, and S3.   "
+    }
+  ],
+  "skills": {
+    "Frontend": ["React", "HTML", "CSS", "JavaScript", "Vue", "Tailwind CSS"],
+    "Backend": [
+      "Java",
+      "Node.js",
+      "Python",
+      "C#",
+      "Redis",
+      "MongoDB",
+      "Postgres",
+      "DynamoDB"
+    ],
+    "DevOps": ["Docker", "Kubernetes", "AWS", "Git", "GitHub", "Linux"]
   }
-
 }
+
 ```
 ---
 
 ### :fire: My Stats :
-![my github stats](https://github-readme-stats.vercel.app/api?username=shulman33&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shulman33&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
